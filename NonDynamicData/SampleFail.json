@@ -1,0 +1,19 @@
+"responses": [
+    {
+        "is": {
+            "statusCode": 400,
+            "body" : "Not Found"
+        },
+        "_behaviors": {
+            "wait": 200
+        }
+    }
+],
+"predicates": [
+    {
+        "matches": {
+            "method": "GET",
+            "path": "demo/0000"
+        }
+    }
+]

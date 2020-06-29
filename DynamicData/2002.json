@@ -1,0 +1,17 @@
+{
+    "port": 2002,
+    "protocol": "http",
+    "recordRequests": true,
+    "stubs": [
+        {
+            <% include SampleSucsess.json %>
+        },
+        {
+            <% include SamplePartialSuccess.json %>
+        },
+        {
+            <% include SampleFail.json %>
+        }
+    ]
+
+}

@@ -1,0 +1,1 @@
+mb --configfile DynamicData/imposters.ejs --allowInjection
